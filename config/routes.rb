@@ -1,4 +1,10 @@
 Vishnoopaupiah::Application.routes.draw do
+  root to: 'welcome#index'
+
+  get "welcome/gallery"
+
+  get "welcome/tributes"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
